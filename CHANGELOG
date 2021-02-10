@@ -1,0 +1,105 @@
+v0.6
+----
+- migrate to androidx libraries
+- target api 28 (up from 25)
+- add x86_64 arch for native rsync and ssh builds
+- rename "Verify Connection" to "Trust host fingerprint"
+- migrate to JobIntentService for background execution to accommodate api 28+ restrictions
+- fix crash when setting frequency to empty string
+
+v0.5.3
+------
+- fix crash when running all tasks from UI
+- fix backup copy operation
+
+v0.5.2
+------
+- fix ssh and rsync binaries not getting updated when app is upgraded
+
+v0.5.1
+------
+- show toast notification with path of exported config
+- add ability to bypass ssid filter when manually syncing
+- add more debug statements to ease troubleshooting
+- revert to android target api 25 to avoid backgroundservice issues on Android 8.1
+- fix wifi-only issues with Android 8.1 (needs location permission)
+- fix crash when exporting
+- fix import properly applying global options
+
+v0.5
+----
+- add gitlab CI integration
+- add ability to enter multiple source directories (thank you pasdVn)
+- add ability to verify ssh host fingerprint using patched dropbear
+- add proper space and string handling in rsync options
+- add global configuration to exported config file
+- fix various typos and crashes
+
+v0.4.6
+------
+- fix notification crash on API < 21
+- fix edit/copy/rename operation on profiles
+- fix rsync protocol not using port
+
+v0.4.5.x
+--------
+- enable running an individual profile from ui
+- fix copy operation
+- fix notifications appearing when they shouldn't
+- support special characters in profile name
+- fix frequency of 0 not disabling automatic sync
+
+v0.4.4
+------
+- fix SSID restriction
+- various other bugfixes
+
+v0.4.3
+------
+- add x86 support
+- fix wifi detection
+- fix notification overlap
+- syncopoli now supports >2GB files
+- add syncs over specific wifi SSIDs
+
+v0.4.2
+------
+- add import/export
+- fix notification always showing up
+- enable use of password for ssh
+- add account picture for sync account
+- various bug fixes
+
+v0.3.1
+------
+- fix upgrade from v0.2 to v0.3 deleting profiles
+- add OI File Manager integration to select source directories
+- don't require private key when using rsync protocol
+
+v0.3
+----
+- become a good appizen: respond to sync requests by other apps
+- support android 7.1 (api level 25) + storage permissions
+- check whether private key is readable
+- notification when syncing (will be configurable in the near future)
+- add new translations
+  - Russian - Christian (https://gitlab.com/u/epinez)
+  - German - ashed (https://gitlab.com/u/ashed)
+
+v0.2
+----
+- Logs are now copyable
+- added wifi-only option to only sync when on wifi
+- added ability to edit and delete profiles
+- added remote to local/phone syncing
+- added multiple translations (thanks to each contributor)
+  - Spanish - Andrés Hernández (https://gitlab.com/u/auroszx)
+  - Japanese - naofum (https://gitlab.com/u/naofumi)
+
+v0.1.1
+------
+- Fixed instant crash on Android < Lollipop
+
+v0.1
+----
+- Initial release

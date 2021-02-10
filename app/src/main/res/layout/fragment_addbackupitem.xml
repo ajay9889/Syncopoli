@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:useDefaultMargins="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/addbackupitem_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/addbackupitem_direction_entries"
+        android:prompt="@string/addbackupitem_direction_prompt"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addbackupitem_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addbackupitem_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/addbackupitem_name"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addbackupitem_source_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addbackupitem_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/addbackupitem_origin"
+            android:inputType="textMultiLine"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addbackupitem_destination_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addbackupitem_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/addbackupitem_destination"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addbackupitem_rsync_options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addbackupitem_rsync_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/addbackupitem_rsync_options"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

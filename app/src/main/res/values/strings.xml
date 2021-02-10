@@ -1,0 +1,61 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">Syncopoli</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="backup_title">Backup</string>
+    <string name="settings_title">Settings</string>
+    <string name="export_title">Export</string>
+    <string name="import_title">Import</string>
+    <string name="action_run_backup">Run backup</string>
+
+    <string name="addbackupitem_name">Profile name</string>
+    <string name="addbackupitem_origin">Origins</string>
+    <string name="addbackupitem_destination">Destination</string>
+    <string name="addbackupitem_rsync_options">Additional rsync options</string>
+    <string name="addbackupitem_frequency">Frequency (in hours)</string>
+    <string name="addbackupitem_direction_prompt">Backup direction</string>
+    <string-array name="addbackupitem_direction_entries">
+        <item>Remote to local</item>
+        <item>Local to remote</item>
+    </string-array>
+
+    <!-- Action bar icons -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_done">Done</string>
+    <string name="action_run">Run all backups</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_server_address">Server address</string>
+    <string name="pref_title_private_key">Private Key File</string>
+    <string name="pref_title_username">User</string>
+    <string name="pref_title_options">Additional Options</string>
+    <string name="pref_title_protocol">Protocol</string>
+    <string name="pref_default_protocol">Rsync</string>
+    <string name="pref_title_port">Port</string>
+    <string name="pref_title_frequency">Frequency (hours)</string>
+    <string name="pref_title_rsync_password">Rsync Password</string>
+    <string name="pref_title_ssh_password">SSH Password</string>
+    <string name="pref_title_wifi_only">Wifi only</string>
+    <string name="pref_title_wifi_name">SSIDs to sync (separated by ;)</string>
+    <string name="pref_title_as_root">Run as root</string>
+    <string name="pref_title_verify_host">Trust host fingerprint</string>
+    <string name="pref_title_clear_hosts">Clear trusted hosts</string>
+
+    <string-array name="pref_entries_protocol">
+        <item>SSH</item>
+        <item>Rsync</item>
+    </string-array>
+
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_sync_backup">Sync &amp; Backup</string>
+
+    <string name="pref_sum_wifi_only">Sync will require Wifi connection to proceed</string>
+    <string name="pref_sum_no_wifi_only">Sync will proceed on any network connection (including mobile data)</string>
+    <string name="pref_sum_as_root">Requires su binary</string>
+</resources>

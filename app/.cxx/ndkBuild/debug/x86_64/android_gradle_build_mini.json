@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk",
+    "/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "rsync-debug-x86_64": {
+      "artifactName": "rsync",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/rsync",
+      "abi": "x86_64",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/rsync",
+      "runtimeFiles": []
+    },
+    "ssh-debug-x86_64": {
+      "artifactName": "ssh",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/ssh",
+      "abi": "x86_64",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/ssh",
+      "runtimeFiles": []
+    },
+    "tomcrypt-debug-x86_64": {
+      "artifactName": "tomcrypt",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libtomcrypt.a",
+      "abi": "x86_64",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libtomcrypt.a",
+      "runtimeFiles": []
+    },
+    "tommath-debug-x86_64": {
+      "artifactName": "tommath",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libtommath.a",
+      "abi": "x86_64",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/libtommath.a",
+      "runtimeFiles": []
+    },
+    "dropbearkey-debug-x86_64": {
+      "artifactName": "dropbearkey",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/dropbearkey",
+      "abi": "x86_64",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/debug/obj/local/x86_64/dropbearkey",
+      "runtimeFiles": []
+    }
+  }
+}

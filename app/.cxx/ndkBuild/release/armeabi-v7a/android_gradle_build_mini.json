@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk",
+    "/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "dropbearkey-release-armeabi-v7a": {
+      "artifactName": "dropbearkey",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/dropbearkey",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/dropbearkey",
+      "runtimeFiles": []
+    },
+    "tomcrypt-release-armeabi-v7a": {
+      "artifactName": "tomcrypt",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtomcrypt.a",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtomcrypt.a",
+      "runtimeFiles": []
+    },
+    "tommath-release-armeabi-v7a": {
+      "artifactName": "tommath",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtommath.a",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtommath.a",
+      "runtimeFiles": []
+    },
+    "ssh-release-armeabi-v7a": {
+      "artifactName": "ssh",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/ssh",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/ssh",
+      "runtimeFiles": []
+    },
+    "rsync-release-armeabi-v7a": {
+      "artifactName": "rsync",
+      "buildCommand": "/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/lib /Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/rsync",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ajaysingsys/Downloads/syncopoli-master/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/rsync",
+      "runtimeFiles": []
+    }
+  }
+}

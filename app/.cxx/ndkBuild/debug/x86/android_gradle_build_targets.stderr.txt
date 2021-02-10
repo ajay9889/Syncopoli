@@ -1,0 +1,41 @@
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/android_external_rsync/syscall.c:300:7: warning: 'mktemp' is deprecated: mktemp is unsafe, use mkstemp or tmpfile instead [-Wdeprecated-declarations]
+        if (!mktemp(template))
+             ^
+/Users/ajaysingsys/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdlib.h:68:47: note: 'mktemp' has been explicitly marked deprecated here
+char* mktemp(char* __template) __attribute__((deprecated("mktemp is unsafe, use mkstemp or tmpfile instead")));
+                                              ^
+1 warning generated.
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/android_external_rsync/zlib/inflate.c:1528:61: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    if (strm == Z_NULL || strm->state == Z_NULL) return -1L << 16;
+                                                        ~~~ ^
+1 warning generated.
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/ed25519.c:113:21: warning: passing 'unsigned char const[32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        buf_putstring(buf, key->pub, CURVE25519_LEN);
+                           ^~~~~~~~
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/buffer.h:64:45: note: passing argument to parameter 'str' here
+void buf_putstring(buffer* buf, const char* str, unsigned int len);
+                                            ^
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/ed25519.c:144:21: warning: passing 'unsigned char [64]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        buf_putstring(buf, s, slen);
+                           ^
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/buffer.h:64:45: note: passing argument to parameter 'str' here
+void buf_putstring(buffer* buf, const char* str, unsigned int len);
+                                            ^
+2 warnings generated.
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/common-algo.c:419:11: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        algolist = buf_getstring(buf, &len);
+                 ^ ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/common-algo.c:421:15: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        get_algolist(algolist, len, remotenames, &remotecount);
+                     ^~~~~~~~
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/common-algo.c:374:32: note: passing argument to parameter 'algolist' here
+static void get_algolist(char* algolist, unsigned int algolist_len,
+                               ^
+2 warnings generated.
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/cli-kex.c:84:36: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        buf_putstring(ses.writepayload, cli_ses.curve25519_param->pub, CURVE25519_LEN);
+                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ajaysingsys/Downloads/syncopoli-master/app/src/main/jni/dropbear/buffer.h:64:45: note: passing argument to parameter 'str' here
+void buf_putstring(buffer* buf, const char* str, unsigned int len);
+                                            ^
+1 warning generated.
